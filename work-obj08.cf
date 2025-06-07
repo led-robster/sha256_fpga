@@ -1,0 +1,22 @@
+v 4
+file . "tb.vhd" "a9a7d529b31d86d842823382a7e6f5c86c887491" "20250514120249.457":
+  entity tb at 3( 35) + 0 on 23;
+  architecture rtl of tb at 17( 230) + 0 on 24;
+file . "top.vhd" "d2178a42074ee857a84eb674ce9f0f0da8c6b64c" "20250514120249.455":
+  entity top at 3( 4) + 0 on 21;
+  architecture rtl of top at 20( 241) + 0 on 22;
+file . "sha256_encode.vhd" "e2f8b446389e63e09f35084300c022750963b2e0" "20250514120249.454":
+  entity sha256_encode at 5( 142) + 0 on 19;
+  architecture rtl of sha256_encode at 35( 918) + 0 on 20;
+file . "pop_count.vhd" "547525e27cf493a0207fd15d4e7745e7fa6ec175" "20250514120249.452":
+  entity pop_count at 3( 4) + 0 on 17;
+  architecture rtl of pop_count at 18( 395) + 0 on 18;
+file . "block_processor.vhd" "432f792ff1c12fca0959b6ae22d8ecac8f182441" "20250514120249.451":
+  entity block_processor at 3( 4) + 0 on 15;
+  architecture rtl of block_processor at 24( 534) + 0 on 16;
+file . "iteration.vhd" "66c772661a435d2a2c865a7332f164e8bdc4e725" "20250514120249.449":
+  entity iteration at 8( 224) + 0 on 13;
+  architecture rtl of iteration at 28( 695) + 0 on 14;
+file . "pkg_fun.vhd" "36f1718289fda38984377f5cc99f95f03ee8f76e" "20250514120249.447":
+  package pkg_fun at 3( 4) + 0 on 11 body;
+  package body pkg_fun at 115( 2313) + 0 on 12;
